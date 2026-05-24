@@ -127,6 +127,17 @@ warning: remote HEAD refers to nonexistent ref, unable to checkout
 
 ```bash
 # Paste here the remote‐adding & push outputs
+$ git remote add origin-ssh adnan_rihawi@vorlesung:~/repos/myproject.git
+(error kam vorher wegen falschem Remote, wurde danach korrigiert)
+
+$ git push origin-ssh main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 232 bytes | 232.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To vorlesung:~/repos/myproject.git
+
+[new branch]      main -> main
 ```
 
 ---
