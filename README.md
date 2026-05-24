@@ -44,6 +44,27 @@ In this exercise you will:
 
 ```bash
 # Paste here the sequence of git commands you ran
+$ mkdir pp5-aufgabe1
+$ cd pp5-aufgabe1
+$ git init
+Initialized empty Git repository in /home/adnan_rihawi/pp5-aufgabe1/.git/
+
+$ git checkout -b feature-1
+Switched to a new branch 'feature-1'
+
+$ echo "Dies ist Feature 1" > feature.txt
+$ git add feature.txt
+
+$ git commit -m "Add feature.txt"
+[feature-1 (root-commit) 9ca428a] Add feature.txt
+1 file changed, 1 insertion(+)
+create mode 100644 feature.txt
+
+$ git checkout -b main
+Switched to a new branch 'main'
+
+$ git merge feature-1
+Already up to date.
 # and the relevant terminal output (e.g., branch listing, merge messages)
 ```
 
