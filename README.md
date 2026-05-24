@@ -89,6 +89,22 @@ Already up to date.
 
 ```bash
 # Paste here the push & clone commands and outputs
+$ git push origin-ssh main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 232 bytes | 232.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To vorlesung:~/repos/myproject.git
+
+[new branch]      main -> main
+
+$ git clone vorlesung:~/repos/myproject.git myproject-clone
+Cloning into 'myproject-clone'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+warning: remote HEAD refers to nonexistent ref, unable to checkout
 ```
 
 ---
